@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Manager_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>!$Permission.Account_Manager</errorConditionFormula>
+    <errorMessage>Only Account Manager can edit/create the account</errorMessage>
+</ValidationRule>
